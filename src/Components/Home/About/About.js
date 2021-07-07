@@ -15,7 +15,7 @@ const About = () => {
     //     }
     // ]
     return (
-        <section  className="container mt-5">
+        <section  className="container">
 
             <div className=" row">
                 <div className=" mt-5 col-md-10 container-fluid  d-flex justify-content-center  ">

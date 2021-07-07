@@ -10,6 +10,8 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
 import About from './Components/Home/About/About';
+import CanDo from './Components/Home/CanDo/CanDo';
+import Experience from './Components/Home/Experience/Experience';
 
 function App() {
   return (
@@ -20,11 +22,23 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          
+          <Route exact path="/home">
+            <Home></Home>
+          </Route>
+
           <Route path="/about">
             <About></About>
             
           </Route>
+          <Route path="/cando">
+            <CanDo></CanDo>
+            
+          </Route>
+          <Route path="/resume">
+            <Experience></Experience>
+            
+          </Route>
+
         </Switch>
       
     </Router>
