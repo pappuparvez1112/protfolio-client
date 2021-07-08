@@ -8,6 +8,7 @@ import Projects from '../Projects/Projects';
 import HireMe from '../HireMe/HireMe';
 import FAQ from '../FAQ/FAQ';
 import ClientReviews from '../ClientReviews/ClientReviews';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <HireMe></HireMe>
             <FAQ></FAQ>
             <ClientReviews></ClientReviews>
+            <Footer></Footer>
         </div>
     );
 };

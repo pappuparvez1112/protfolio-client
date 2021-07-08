@@ -3,12 +3,12 @@ import logoTwo from '../../../image/lamp2.png'
 
 const FAQ = () => {
     return (
-        <section className="container mt-5">
+        <section className="container">
 
-            <div className="container d-flex mb-5">
+            <div className="container d-flex mb-5 p-3">
 
-                <div className="col-6 mt-5">
-                    <h5 className="mt-5">FAQ</h5>
+                <div className="col-6 p-2">
+                    <h5 className="mt-5 btn btn-warning">FAQ</h5>
                     <h1 className="mt-5">Have you any question ?</h1>
 
                     <div className="mt-5">
@@ -33,7 +33,7 @@ const FAQ = () => {
                     </div>
                 </div>
                 <div className="col-6 d-flex justify-content-center ">
-                    <img style={{marginTop:"150px",marginLeft:"50px",width:"px"}} src={logoTwo} alt="" />
+                    <img style={{marginTop:"100px",marginLeft:"50px",width:"100%"}} src={logoTwo} alt="" />
                 </div>
 
 

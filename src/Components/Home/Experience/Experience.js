@@ -5,7 +5,7 @@ const Experience = () => {
         <section className="container">
             <div>
                 <div className="text-center mb-5 ">
-                    <h5 style={{color:"yellowgreen"}}> Resume</h5>
+                    <h5 className="btn btn-warning"> Resume</h5>
                     <h1 style={{color:"gray"}}>Experience</h1>
                 </div>
                 <div className="d-flex justify-content-center ">
