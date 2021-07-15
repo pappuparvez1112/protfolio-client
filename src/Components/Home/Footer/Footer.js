@@ -4,16 +4,17 @@ import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brand
 
 const Footer = () => {
     return (
-        <footer style={{backgroundColor:"orange"}}>
-            <div className="container pt-5 d-flex justify-content-center">
-                <div className="row py-5 col-6 text-center mt-5">
-                    <div className="">
+        <footer className=" px-0" style={{backgroundColor:"orange"}}>
+           
+           <div  className="container row pt-5 ms-3 px-4  d-flex justify-content-start  ">
+                <div className=" col-4 px-5 py-5 ">
+                    <div className="py-5 ">
 
-                        <button className="btn btn-primary mb-3">+2025550295</button>
+                        <button  className="btn btn-primary mb-3">+2025550295</button>
                         <h6>Call now</h6>
                     </div>
-                    <div className="mt-5">
-                        <ul className="social-media list-inline">
+                    <div className="mt-5  ">
+                        <ul className="social-media list-inline d-flex">
                             <li className="list-inline-item me-4"><a href="//facebook.com"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
                             <li  className="list-inline-item me-4"><a href="//google.com"><FontAwesomeIcon className="icon" icon={faGooglePlusG} /></a></li>
                             <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
@@ -21,7 +22,7 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div className="col-6 text-center mb-5 mt-3">
+                <div className=" col-8 text-center mb-5  ">
                     <h1>Contact Us</h1>
                     <div className="form-group text-start mb-2 ">
                         <label className="mb-2" htmlFor="exampleInputEmail1">What is your name?</label>
@@ -40,6 +41,7 @@ const Footer = () => {
 
                 </div>
             </div>
+           
 
             <div style={{backgroundColor:"black"}} className="copyRight text-center text-white">
                 <p>Copyright {(new Date()).getFullYear()} All Rights Reserved</p>

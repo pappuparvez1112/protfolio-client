@@ -3,9 +3,9 @@ import React from 'react';
 const AboutAnother = ({ about }) => {
 
     return (
-        <section className="container ">
-            <div className=" col d-flex mt-5 ms-5 mb-5 ">
-                <div className="col-md-3 ms-3">
+        <section className="container px-5 ">
+            <div className="row col d-flex mt-5 ">
+                <div className="col-md-3">
                     <h5>Name:</h5>
                     <p>Pappu parvez</p>
                 </div>

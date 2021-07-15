@@ -3,10 +3,10 @@ import './HireMe.css'
 
 const HireMe = () => {
     return (
-        <section className="hireme">
-            <div style={{padding:"30px",margin:"30px",color:"darkcyan"}} className="text-center mb-5 ">
-                <h1 className="mt-5">If you are interested</h1>
-                <button className="btn btn-success p-3 mt-5">Hire me</button>
+        <section className="hireme py-5">
+            <div style={{padding:"30px",margin:"30px",color:"springgreen"}} className="text-center mb-5 hirenew ">
+                <h1 className="mt-5 hire">If you are interested</h1>
+                <button className="btn btn-warning p-3 mt-5 hireanother">Hire me</button>
             </div>
         </section>
 

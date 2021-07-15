@@ -1,0 +1,5 @@
+.experience:hover{
+    transition: .5s;
+    transform: scaleY(1.2);
+
+}

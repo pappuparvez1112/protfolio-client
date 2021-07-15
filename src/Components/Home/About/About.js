@@ -16,7 +16,7 @@ const About = () => {
     //     }
     // ]
     return (
-       <div>
+       <div className="py-0 py-md-5">
            <AboutMain></AboutMain>
            <AboutAnother></AboutAnother>
        </div>

@@ -1,0 +1,57 @@
+
+
+@keyframes bot {
+    from {bottom: 60px;}
+    to {bottom: 0;}
+}
+@keyframes tob { 
+    from {top: 20px;}
+    to {top: 0px;}
+} 
+@keyframes ltr {
+    from {left: 60px;}
+    to {left: 0;}
+    
+}
+@keyframes rtl { 
+    from {right: 20px;}
+    to {right: 0px;}
+}
+
+
+
+
+.animation{ 
+    position: relative;    
+    animation: rtl 8s infinite ;
+    animation-delay: 1s;
+    
+    
+}
+
+.animationanother{
+    position: relative;  
+    animation: ltr 8s infinite ;
+    animation-delay: 1s;
+
+    
+}
+
+@media screen and (max-width:768px) {
+    .animation{ 
+        animation:bot 10s infinite ; 
+        
+        
+             
+    }  
+    .animationanother{
+        animation: tob 10s infinite;
+        
+        
+    }    
+}
+ 
+ 
+  
+
+ 

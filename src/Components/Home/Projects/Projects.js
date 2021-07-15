@@ -1,45 +1,46 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import imageOne from '../../../image/picture 1.png'
-import imageTwo from '../../../image/picture 2.png'
-import imageThree from '../../../image/picture 3.png'
+import imageOne from '../../../image/pic 1 new.png'
+import imageTwo from '../../../image/pic 2 new.png'
+import imageThree from '../../../image/pic 3 new.png'
+import './Project.css'
 
 const Projects = () => {
     return (
-        <section className="mt-5 ">
-            <div className="pt-5">
-                <div className=" text-center">
-                    <h5 style={{ color: "" }} className="mb-5 btn btn-warning">What i have done</h5>
-                    <h1>My project</h1>
+        <section className="py-5 container">
+            <div className="">
+                <div className=" text-center ">
+                    <h5  className="py-2 btn btn-warning project">What i have done</h5>
+                    <h1 className="py-3">My project</h1>
                 </div>
-                <div className="card-deck mt-5   d-flex justify-content-center mb-5">
-                    <div className="ms-3 ">
-                        <div className="card shadow-sm d-flex col-md-3 text-center mb-5">
-                            <img style={{ width: "400px", backgroundSize: "cover", overflow: "hidden", backgroundRepeat: "no-repeat" }} src={imageOne} alt="" />
+                <div className="card-deck  row  d-flex justify-content-center  ">
+                    <div className="col-md-4 project ">
+                        <div className=" card shadow-sm d-flex text-center mb-3 p-3">
+                            <img style={{ width: "100%",height:"300px" }} src={imageOne} alt="" />
                         </div>
                         <div className="text-center">
-                            <Link style={{ textDecoration: "none" }} to="/file:///G:/web%20development/panda-ecomerce/index.html#bag" className="mt-5">Live Link</Link>
+                            <a style={{ textDecoration: "none" }} href="https://pappuparvez1112.github.io/responsive-shoe-fashion/" className="mt-5">Live Link</a>
                         </div>
 
                     </div>
-                    <div >
-                        <div className="card shadow-sm d-flex col-md-3 text-center mb-3 ms-5 " >
-                            <img style={{ width: "400px", height: "296px" }} src={imageTwo} alt="" />
+                    <div className="col-md-4 project" >
+                        <div className="card shadow-sm  d-flex text-center mb-3 p-3 " >
+                            <img style={{ width: "100%",height:"300px" }} src={imageTwo} alt="" />
                         </div>
                         <div className="text-center">
-                            <Link style={{ textDecoration: "none" }} className="mt-3" to="/file:///G:/web%20development/project%201/leader-board-master/leader-board-master/Idea.pdf">Live Link</Link>
+                            <a style={{ textDecoration: "none" }} className="mt-3" href="https://pappuparvez1112.github.io/panda-ecommerce/">Live Link</a>
                         </div>
 
 
 
                     </div>
-                    <div >
-                        <div className="card shadow-sm d-flex col-md-3 text-center mb-3 me-3 ms-5">
-                            <img style={{ width: "400px", height: "294px" }} src={imageThree} alt="" />
+                    <div className="col-md-4 project" >
+                        <div className="  card shadow-sm d-flex  text-center mb-3 p-3">
+                            <img style={{ width: "100%",height:"300px" }} src={imageThree} alt="" />
                         </div>
 
                         <div className="text-center">
-                            <Link style={{ textDecoration: "none" }} className="mt-3 " href="/file:///G:/web%20development/project/web-protfolio/index.html"> Live Link</Link>
+                            <a style={{ textDecoration: "none" }} className="mt-3 " href="https://pappuparvez1112.github.io/personal-web-protfolio/"> Live Link</a>
                         </div>
 
                     </div>

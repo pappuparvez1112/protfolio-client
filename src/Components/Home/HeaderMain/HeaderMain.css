@@ -1,17 +1,31 @@
 .main{
-    height: 500px;
+    /* height: 500px;
 
     
-    background-image: url('/src/image/photo-1486312338219-ce68d2c6f44d.jpg');
+    background-image: linear-gradient(to right ,rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('/src/image/photo-1486312338219-ce68d2c6f44d.jpg');
     
 
    
-    background-size:cover;
+    background-size:cover,cover;
     overflow: hidden;
     
-    
+    text-shadow:3px 3px 5px rgba(0, 0, 0, .5);
      position:relative; 
     background-position:center; 
-    
+     */
    
 }
+.headeranimation{
+  position: relative;
+  animation: right 8s infinite;
+  
+  animation-name: right;
+
+
+}
+
+
+  @keyframes right {
+    from {right:1000px;}
+    to {right:0px;}
+  }

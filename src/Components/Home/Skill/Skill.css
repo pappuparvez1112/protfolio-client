@@ -17,3 +17,7 @@
 .css {width: 80%; background-color: #a09193;} /* Blue */
 .js {width: 65%; background-color: #9b635f;} /* Red */
 .react {width: 75%; background-color: #126fad;} /* Dark Grey */
+.skill:hover{
+  transition: .3s;
+  transform: scaleY(1.1);
+}

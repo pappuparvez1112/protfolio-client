@@ -1,9 +1,48 @@
 .hireme{
-    background-image: url(../../../image/hire\ me.jfif);
+    background-image:linear-gradient(to right ,rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url(../../../image/hire\ me.jfif);
     
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     background-position: center;
     
+}
+
+
+
+@keyframes ltr {
+    from {left: 600px;}
+    to {left: 0;}
+}
+@keyframes rtl { 
+    from {right: 600px;}
+    to {right: 0px;}
+}
+@keyframes bot {
+    from {bottom: 600px;}
+    to {bottom: 0;}
+}
+@keyframes tob { 
+    from {top: 600px;}
+    to {top: 0px;}
+}
+
+.hire{ 
+    position: relative;    
+    animation: rtl 2s infinite;
+    animation-delay: 1s;
+}
+
+.hireanother{
+    position: relative;  
+    animation: ltr 2s ease-out;
+    animation-delay: 1s;
+}
+@media screen and (max-width:768px) {
+    .hire{ 
+        animation: tob 3s infinite;        
+    }  
+    .hireanother{
+        animation: bot 7s ease-in-out;
+    }    
 }

@@ -1,0 +1,7 @@
+
+.cando:hover{
+    transition: .3s;
+    transform: scaleY(1.1);
+
+}
+   
